@@ -1,5 +1,5 @@
 {
-  "name": "react-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,13 +40,12 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^9.5.0",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^3.0.0"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/delarosa0305/photo-port.git"
+    "url": "git+https://github.com/delarosa0305/react-portfolio.git"
   },
   "keywords": [],
   "author": "",
@@ -52,5 +53,5 @@
   "bugs": {
     "url": "https://github.com/delarosa0305/react-portfolio/issues"
   },
-  "homepage": "https://github.com/delarosa0305/react-portfolio#readme"
+  "description": ""
 }
